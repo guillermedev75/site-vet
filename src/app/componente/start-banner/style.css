@@ -1,0 +1,39 @@
+container {
+    width: 100%;
+    height: initial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 0;
+}
+
+container img {
+    width: 50%;
+    height: 70vh;
+    border-radius: 5px 0 0 5px;
+}
+
+
+container .div-background {
+    width: 50%;
+    height: 70vh;
+    background: rgb(193,182,170);
+    background: linear-gradient(180deg, rgba(193,182,170,1) 0%, rgba(201,192,183,1) 50%, rgba(201,191,181,1) 100%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 5px 5px 0;
+    padding-right: 5%;
+}
+
+container .div-background h2{
+    font-size: 2.4rem;
+    text-decoration: underline;
+}
+
+container .div-background p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0;
+}

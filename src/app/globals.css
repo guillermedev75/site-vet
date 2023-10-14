@@ -5,4 +5,5 @@
 body {
   background-color: var(--primary-background);
   color: white;
+  padding: 1vw 1%;
 }
