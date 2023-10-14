@@ -33,7 +33,7 @@ ul li a{
     color: --primary-background;
     font-weight: 500;
     transition: 0.5s;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid rgba(255,255,255,0);
 }
 
 ul li a:hover{
