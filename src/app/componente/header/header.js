@@ -3,8 +3,8 @@
 //Bibliotecas
 import Image from 'next/image'
 import Link from 'next/link'
-// import React, { useState } from 'react'
 import Head from '../head/head'
+import { usePathname } from 'next/navigation';
 
 //Folhas de estilo
 import '@//app/globals.css'
@@ -12,7 +12,7 @@ import './style.css'
 
 export default function nav_bar() {
 
-    
+    const currentRoute = usePathname()
     
     return (
         <div>
@@ -31,17 +31,17 @@ export default function nav_bar() {
 
                     <ul>
                         <li>
-                            <Link href="/">
-                                Inicio
+                            <Link className={currentRoute == '/' ? 'pageSelected' : ''} href="/">
+                                Inicio 
                             </Link>
                         </li>
                         <li>
-                            <Link href="/sobre">
+                            <Link className={currentRoute == '/sobre' ? 'pageSelected' : ''} href="/sobre">
                                 Sobre
                             </Link>
                         </li>
                         <li>
-                            <Link href="/contato">
+                            <Link className={currentRoute == '/contato' ? 'pageSelected' : ''} href="/contato">
                                 Contato
                             </Link>
                         </li>
