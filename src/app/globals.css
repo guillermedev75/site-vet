@@ -5,5 +5,13 @@
 body {
   background-color: var(--primary-background);
   color: white;
-  padding: 1vw 1%;
+  padding: 1vh;
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+
+.container-base {
+
+  display: block;
 }

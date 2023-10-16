@@ -3,7 +3,6 @@
 //Bibliotecas
 import Image from 'next/image'
 import Link from 'next/link'
-import Head from '../head/head'
 import { usePathname } from 'next/navigation';
 
 //Folhas de estilo
@@ -17,8 +16,6 @@ export default function nav_bar() {
     return (
         <div>
 
-            <Head/>
-
             <main>
                 <nav>
 
@@ -27,6 +24,7 @@ export default function nav_bar() {
                         width={166}
                         height={50}
                         alt="Logo"
+                        
                     />
 
                     <ul>

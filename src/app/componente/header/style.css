@@ -30,7 +30,7 @@ ul li {
 ul li a{
     text-decoration: none;
     font-size: 1.2rem;
-    color: --primary-background;
+    color: --primary-background !important;
     font-weight: 500;
     transition: 0.5s;
     border-bottom: 3px solid rgba(255,255,255,0);
