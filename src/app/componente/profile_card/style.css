@@ -1,0 +1,25 @@
+.profileCard {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profileCard img {
+    border-radius: 100%;
+}
+
+.profileCard div {
+    text-align: center;
+}
+
+.profileCard div h3{
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.profileCard div p {
+    font-size: 1rem;
+    margin: 0;
+}

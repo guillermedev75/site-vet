@@ -4,7 +4,7 @@ container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2vh 0;
+    margin: 1vh 0;
     background: linear-gradient(180deg, rgba(193,182,170,1) 0%, rgba(201,192,183,1) 50%, rgba(201,191,181,1) 100%);
     border-radius: 5px;
 }
