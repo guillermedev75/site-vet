@@ -1,5 +1,9 @@
 .profileContainer {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
+    /* margin-left: 8vw; */
+    /* padding-right: 4vw; */
+    padding: 0 8vw;
+    margin-top: 5vh;
 }
